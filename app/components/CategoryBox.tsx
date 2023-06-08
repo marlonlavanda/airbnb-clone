@@ -7,7 +7,7 @@ import qs from "query-string";
 
 interface CategoryBoxProps {
   label: string;
-  description: string;
+  description?: string;
   icon: IconType;
   selected?: boolean;
 }
